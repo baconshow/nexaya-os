@@ -1,0 +1,16 @@
+{
+  "_leia": "Registro único de apps locais do OS: porta, pasta e comando de cada servidor local. O Claude lê este arquivo para saber onde cada app roda; com o Nexaya OS Pro, o painel também mostra quem está no ar e sobe ou derruba cada app, e o próprio painel entra aqui com o id painel-os (a entrada exata está no INSTALAR.md do Pro). Só entra aqui comando que a pessoa reconhece: este arquivo é raiz de confiança. pasta aceita {OS_ROOT} e {HOME}. maquina: ambas (qualquer máquina), rede-interna (só nas máquinas de maquinas_rede_interna do config do painel), externa (só nas outras) ou o nome (hostname) de uma máquina. porta: número; 0 enquanto for modelo. Não reuse porta.",
+  "apps": [
+    {
+      "id": "{{id-do-app}}",
+      "nome": "{{Nome legível}}",
+      "depto": "{{DEPTO}}",
+      "pasta": "{OS_ROOT}/{{DEPTO}}/{{pasta-do-projeto}}",
+      "comando": "python -m http.server {{PORTA}} --bind 127.0.0.1",
+      "porta": 0,
+      "url": "http://127.0.0.1:{{PORTA}}",
+      "maquina": "ambas",
+      "descricao": "{{O que é, de onde veio a porta (launch.json, package.json, script)}}"
+    }
+  ]
+}

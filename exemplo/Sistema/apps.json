@@ -1,0 +1,38 @@
+{
+  "_leia": "Registro único de apps locais do OS de exemplo (fictício). O Claude lê este arquivo para saber porta, pasta e comando de cada app; com o Nexaya OS Pro, o painel também mostra quem está no ar e sobe ou derruba cada app. pasta aceita {OS_ROOT} e {HOME}. A Ana não tem o Pro, então o painel não está registrado aqui.",
+  "apps": [
+    {
+      "id": "painel-vendas-web",
+      "nome": "Painel de vendas",
+      "depto": "Trabalho",
+      "pasta": "{OS_ROOT}/Trabalho/painel-vendas/web",
+      "comando": "python -m http.server 5510 --bind 127.0.0.1",
+      "porta": 5510,
+      "url": "http://127.0.0.1:5510",
+      "maquina": "ambas",
+      "descricao": "Painel semanal de vendas da livraria, HTML estático"
+    },
+    {
+      "id": "site-atelie",
+      "nome": "Site do ateliê",
+      "depto": "Empresa",
+      "pasta": "{OS_ROOT}/Empresa/site/public",
+      "comando": "python -m http.server 5520 --bind 127.0.0.1",
+      "porta": 5520,
+      "url": "http://127.0.0.1:5520",
+      "maquina": "ambas",
+      "descricao": "Site de uma página do ateliê, para revisão local"
+    },
+    {
+      "id": "notas-estatistica",
+      "nome": "Notas de estatística",
+      "depto": "Estudos",
+      "pasta": "{OS_ROOT}/Estudos/curso-estatistica/notas",
+      "comando": "python -m http.server 5530 --bind 127.0.0.1",
+      "porta": 5530,
+      "url": "http://127.0.0.1:5530",
+      "maquina": "ambas",
+      "descricao": "Notas de aula do curso de estatística"
+    }
+  ]
+}

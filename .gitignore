@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Dados de execução (relatórios das rotinas, logs)
+dados/
+*.log
+
+# Segredos e variáveis de ambiente
+.env*
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

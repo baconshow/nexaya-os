@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nexaya",
+  "description": "Nexaya plugins for Claude Code.",
+  "owner": {
+    "name": "Nexaya",
+    "url": "https://nexaya.com.br"
+  },
+  "plugins": [
+    {
+      "name": "nexaya-os",
+      "source": "./",
+      "description": "Agentic OS for Claude Code: a guided setup builds your own named OS of departments, markdown routers, per-department memory, handoffs and routines.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nexaya",
+        "url": "https://nexaya.com.br"
+      },
+      "homepage": "https://github.com/baconshow/nexaya-os",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}
