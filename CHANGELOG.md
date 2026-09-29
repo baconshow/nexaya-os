@@ -3,6 +3,15 @@
 Todas as mudanças relevantes do Nexaya OS ficam registradas aqui.
 As versões seguem o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## 1.0.1 — ajustes pedidos pela checagem do diretório
+
+### Alterado
+
+- `plugin.json`: autor `nexaya-os` (o nome "Nexaya" era parecido demais com outro
+  conector do diretório); ícone `.claude-plugin/icon.svg`.
+- `exemplo/README.md`: os comandos do painel usam caminhos relativos
+  (`./exemplo`) em vez de `$PWD`.
+
 ## 1.0.0 — primeira versão pública do Nexaya OS (núcleo gratuito)
 
 Publicada pela [Nexaya](https://nexaya.com.br) sob licença MIT.

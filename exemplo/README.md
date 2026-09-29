@@ -23,14 +23,14 @@ da raiz deste repositório:
 
 ```bash
 # Windows (Git Bash) ou macOS/Linux
-AGENTIC_OS_ROOT="$PWD/exemplo" AGENTIC_OS_MEMORY_DIR="$PWD/exemplo/Sistema/memoria" \
+AGENTIC_OS_ROOT="./exemplo" AGENTIC_OS_MEMORY_DIR="./exemplo/Sistema/memoria" \
   python "<pasta do Nexaya OS Pro>/painel/servir.py" --abrir
 ```
 
 ```powershell
 # PowerShell
-$env:AGENTIC_OS_ROOT = "$PWD\exemplo"
-$env:AGENTIC_OS_MEMORY_DIR = "$PWD\exemplo\Sistema\memoria"
+$env:AGENTIC_OS_ROOT = ".\exemplo"
+$env:AGENTIC_OS_MEMORY_DIR = ".\exemplo\Sistema\memoria"
 python "<pasta do Nexaya OS Pro>\painel\servir.py" --abrir
 ```
 

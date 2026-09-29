@@ -1,10 +1,10 @@
 {
   "name": "nexaya-os",
   "displayName": "Nexaya OS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agentic OS for Claude Code: a guided setup builds your own named OS of departments, markdown routers, per-department memory, handoffs and routines.",
   "author": {
-    "name": "Nexaya",
+    "name": "nexaya-os",
     "url": "https://nexaya.com.br"
   },
   "homepage": "https://github.com/baconshow/nexaya-os",
