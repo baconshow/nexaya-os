@@ -10,7 +10,7 @@ As versões seguem o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 - `plugin.json`: autor `nexaya-os` (o nome "Nexaya" era parecido demais com outro
   conector do diretório); ícone `.claude-plugin/icon.svg`.
 - `exemplo/README.md`: os comandos do painel usam caminhos relativos
-  (`./exemplo`) em vez de `$PWD`.
+  (`./exemplo`), sem depender da variável da pasta atual.
 
 ## 1.0.0 — primeira versão pública do Nexaya OS (núcleo gratuito)
 
